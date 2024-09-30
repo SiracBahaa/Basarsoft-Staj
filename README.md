@@ -1,0 +1,2 @@
+# Basarsoft-Staj
+GIS MODEL
