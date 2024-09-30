@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MappingWithNodeJS</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css">
+    <!-- jsPanel CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jspanel4@4.14.1/dist/jspanel.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button id="inserted-locations-button" class="navbar-button">Inserted Locations</button>
+
+        <!-- WKT Selection Dropdown as part of Navbar -->
+        <div class="dropdown">
+            <button id="add-wkt-button" class="navbar-button">Add WKT</button>
+            <div id="wkt-menu" class="dropdown-content" style="display: none;">
+                <button id="wkt-point" class="wkt-option">Point</button>
+                <button id="wkt-linestring" class="wkt-option">LineString</button>
+                <button id="wkt-polygon" class="wkt-option">Polygon</button>
+                <button id="wkt-circle" class="wkt-option">Circle</button>
+            </div>
+        </div>
+    </nav>
+
+    <ol-map id="map" class="map" tabindex="0"></ol-map>
+
+    <!-- Zoom Controls -->
+    <div class="zoom-controls">
+        <button class="zoom-button" id="zoom-in">+</button>
+        <button class="zoom-button" id="zoom-out">-</button>
+    </div>
+
+    <!-- Locations Table -->
+    <div id="locations-container">
+        <button id="close-table-button" class="close-button">&times;</button>
+        <table id="locations-table" class="display">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>WKT</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Popup for displaying feature info -->
+    <div id="popup" class="ol-popup"></div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <!-- jsPanel JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.14.1/dist/jspanel.min.js"></script>
+
+    <!-- Main JS -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "basarsoftstaj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ol": "^10.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}
