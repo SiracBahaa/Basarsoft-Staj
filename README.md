@@ -27,6 +27,7 @@ Show butonuna bastıktan sonra nokta haritada zoom yaparak kullanıcıya yeri g�
 Update işlemi ile noktanın bilgileri güncellenebilir.
 Delete butonu ile veritabanında noktanın bilgileri silinir.
 Harita üzerinde nokta, polygon ve ya çizgi değişkenlerinin üzerine tıklanarak çıkan pop up kısmında isim ve koordinat bilgisi alınabilir.
+Kullanım videosu linktedir ; https://www.youtube.com/watch?v=Ftp_ITrePs8
 Katkıda Bulunma
 Katkıda bulunmak isterseniz, lütfen bir pull request oluşturun. Büyük değişiklikler için önce bir konu açarak neyi değiştirmek istediğinizi tartışın.
 
