@@ -4,7 +4,11 @@ Bu proje, bir harita üzerinde nokta, poligon ve çizgi değerlerinin yönetimin
 Kurulum
 Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edin.
 
-1- Kodu bilgisayarınıza indirin. 2- Veritabanı bağlantısını oluşturun 3- ASP.NET ile swaggerden back-end kısmının çalışıp çalışmadığını kontrol edin. 4- Visial Studio Code de terminale "-npm install ol" yazıp çalıştırın 5- Kodun arkayüz kısmının çalıştığından emin olun ve de ön yüz kısmını çalıştırın
+1- Kodu bilgisayarınıza indirin. 
+2- Veritabanı bağlantısını oluşturun 
+3- ASP.NET ile swaggerden back-end kısmının çalışıp çalışmadığını kontrol edin. 
+4- Visial Studio Code de terminale "-npm install ol" yazıp çalıştırın 
+5- Kodun arkayüz kısmının çalıştığından emin olun ve de ön yüz kısmını çalıştırın
 
 Gerekli Yazılımlar
 .NET 8 SDK
