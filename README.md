@@ -1,5 +1,5 @@
 Harita Uygulaması
-Bu proje, bir harita üzerinde nokta, poligon ve çizgi değerlerinin yönetimini sağlamak amacıyla geliştirilmiştir. ASP.NET Core, SQL, HTML, CSS ve Javascript kullanılarak oluşturulan bu uygulama, noktaların CRUD işlemlerini veritabanı ile entegre bir şekilde gerçekleştirebilmektedir.
+Bu proje, bir harita üzerinde nokta, poligon ve çizgi değerlerinin yönetimini sağlamak amacıyla geliştirilmiştir. ASP.NET Core, PostgreSQL, HTML, CSS ve Javascript kullanılarak oluşturulan bu uygulama, noktaların CRUD işlemlerini veritabanı ile entegre bir şekilde gerçekleştirebilmektedir.
 
 Kurulum
 Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edin.
